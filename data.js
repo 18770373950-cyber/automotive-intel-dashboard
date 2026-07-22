@@ -1,5 +1,5 @@
 window.SPEED_INTELLIGENCE_DATA={
-  "version": 2026072201,
+  "version": 2026072202,
   "updatedAt": "2026-07-22 10:00",
   "cutoff": "日报及车型状态截至北京时间 2026-07-22 10:00",
   "daily": [
@@ -2146,7 +2146,12 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://galaxy.geely.com/",
       "status": "已官宣",
       "verification": "已完成",
-      "updatedAt": "2026-07-22 10:00"
+      "updatedAt": "2026-07-22 10:00",
+      "type": "calendar",
+      "category": "预售开启",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "B级"
     },
     {
       "id": 1784685040492,
@@ -2164,7 +2169,12 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.beijingauto.com.cn/",
       "status": "已官宣",
       "verification": "已完成",
-      "updatedAt": "2026-07-22 10:00"
+      "updatedAt": "2026-07-22 10:00",
+      "type": "calendar",
+      "category": "预售开启",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "B级"
     },
     {
       "id": 1784685040493,
@@ -2182,7 +2192,12 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.gacmotor.com/",
       "status": "已官宣",
       "verification": "已完成",
-      "updatedAt": "2026-07-22 10:00"
+      "updatedAt": "2026-07-22 10:00",
+      "type": "calendar",
+      "category": "上市定档",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "B级"
     },
     {
       "id": 1784685040494,
@@ -2200,7 +2215,12 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://galaxy.geely.com/",
       "status": "已官宣",
       "verification": "已完成",
-      "updatedAt": "2026-07-22 10:00"
+      "updatedAt": "2026-07-22 10:00",
+      "type": "calendar",
+      "category": "首发定档",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "B级"
     }
   ],
   "watches": [
@@ -3274,7 +3294,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.gacmotor.com/",
       "status": "已官宣",
       "verification": "已完成",
-      "updatedAt": "2026-07-22 10:00"
+      "updatedAt": "2026-07-22 10:00",
+      "type": "watch",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "B级",
+      "title": "第五代GS4重点监控",
+      "summary": "轴距2770mm，1.5T+7DCT。",
+      "launchStatus": "上市定档",
+      "eventDate": "2026-07-24"
     },
     {
       "id": 1784685040489,
@@ -3290,7 +3318,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://galaxy.geely.com/",
       "status": "已官宣",
       "verification": "已完成",
-      "updatedAt": "2026-07-22 10:00"
+      "updatedAt": "2026-07-22 10:00",
+      "type": "watch",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "B级",
+      "title": "银河战舰700重点监控",
+      "summary": "全球首秀，年内上市。",
+      "launchStatus": "首发定档",
+      "eventDate": "2026-07-24"
     }
   ]
 };
