@@ -1,6 +1,6 @@
 window.SPEED_INTELLIGENCE_DATA={
-  "version": 2026072501,
-  "updatedAt": "2026-07-25 10:30",
+  "version": 2026072502,
+  "updatedAt": "2026-07-25 16:42",
   "cutoff": "日报及车型状态截至北京时间 2026-07-25 10:30",
   "daily": [
     {
@@ -2339,7 +2339,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://gacmotor.com/gs4/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-25 10:30"
+      "updatedAt": "2026-07-25 16:42",
+      "type": "calendar",
+      "title": "第五代GS4正式上市",
+      "category": "上市发布",
+      "sourceLevel": "B级",
+      "industryAngle": "正式上市节点",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607250101,
@@ -2356,7 +2364,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://galaxy.geely.com/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-25 10:30"
+      "updatedAt": "2026-07-25 16:42",
+      "type": "calendar",
+      "title": "银河战舰700全球首秀",
+      "category": "全球首发",
+      "sourceLevel": "B级",
+      "industryAngle": "首秀与量产配置分开记录",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607250102,
@@ -2373,7 +2389,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.ithome.com/0/981/326.htm",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-25 10:30"
+      "updatedAt": "2026-07-25 16:42",
+      "type": "calendar",
+      "title": "岚图追光S预售发布",
+      "category": "预售发布",
+      "sourceLevel": "B级",
+      "industryAngle": "当前仅公布顶配预售价",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607250103,
@@ -2390,7 +2414,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://cn.inform.kz/news/lixianggewaishengdi-85e2acdf/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-25 10:30"
+      "updatedAt": "2026-07-25 16:42",
+      "type": "calendar",
+      "title": "全新理想L9哈萨克斯坦上市",
+      "category": "海外上市",
+      "sourceLevel": "B级",
+      "industryAngle": "海外上市与中国市场时间线分开记录",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607250104,
@@ -2398,7 +2430,7 @@ window.SPEED_INTELLIGENCE_DATA={
       "brand": "梅赛德斯-奔驰",
       "model": "全新GLA",
       "eventDate": "2026-07-30",
-      "launchTime": "01:30",
+      "launchTime": "2026-07-30T01:30",
       "launchStatus": "首发定档",
       "summary": "燃油与纯电版全球首秀，纯电版接替EQA",
       "sourceName": "IT之家",
@@ -2407,7 +2439,15 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://media.mercedes-benz.com/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-25 10:30"
+      "updatedAt": "2026-07-25 16:42",
+      "type": "calendar",
+      "title": "全新GLA全球首发",
+      "category": "全球首发",
+      "sourceLevel": "B级",
+      "industryAngle": "全球首发不等于中国市场上市",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     }
   ],
   "watches": [
