@@ -1,5 +1,5 @@
 window.SPEED_INTELLIGENCE_DATA={
-  "version": 2026072602,
+  "version": 2026072603,
   "updatedAt": "2026-07-26 10:30",
   "cutoff": "日报及车型状态截至北京时间 2026-07-26 10:30",
   "daily": [
@@ -2151,7 +2151,8 @@ window.SPEED_INTELLIGENCE_DATA={
       "category": "预售开启",
       "priority": "高",
       "risk": "低",
-      "sourceLevel": "B级"
+      "sourceLevel": "B级",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 1784685040492,
@@ -2174,7 +2175,8 @@ window.SPEED_INTELLIGENCE_DATA={
       "category": "预售开启",
       "priority": "高",
       "risk": "低",
-      "sourceLevel": "B级"
+      "sourceLevel": "B级",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 1784685040493,
@@ -2197,7 +2199,8 @@ window.SPEED_INTELLIGENCE_DATA={
       "category": "上市定档",
       "priority": "高",
       "risk": "低",
-      "sourceLevel": "B级"
+      "sourceLevel": "B级",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 1784685040494,
@@ -2220,7 +2223,8 @@ window.SPEED_INTELLIGENCE_DATA={
       "category": "首发定档",
       "priority": "高",
       "risk": "低",
-      "sourceLevel": "B级"
+      "sourceLevel": "B级",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607240100,
@@ -2237,7 +2241,14 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.news.cn/auto/20260701/4bed08a4e7ec4d8ead497895388147cf/c.html",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-24 10:30"
+      "updatedAt": "2026-07-24 10:30",
+      "type": "calendar",
+      "title": "领克07GT正式上市",
+      "category": "正式上市",
+      "sourceLevel": "B级",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607240101,
@@ -2254,7 +2265,14 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.yipai.com.cn/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-24 10:30"
+      "updatedAt": "2026-07-24 10:30",
+      "type": "calendar",
+      "title": "东风奕派eπ M8正式上市",
+      "category": "正式上市",
+      "sourceLevel": "B级",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607240102,
@@ -2271,7 +2289,14 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.bydauto.com.cn/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-24 10:30"
+      "updatedAt": "2026-07-24 10:30",
+      "type": "calendar",
+      "title": "比亚迪秦MAX上市定档",
+      "category": "上市定档",
+      "sourceLevel": "B级",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607240103,
@@ -2288,7 +2313,14 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.bydauto.com.cn/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-24 10:30"
+      "updatedAt": "2026-07-24 10:30",
+      "type": "calendar",
+      "title": "比亚迪大汉首发定档",
+      "category": "首发定档",
+      "sourceLevel": "B级",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607240104,
@@ -2305,7 +2337,14 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://www.bydauto.com.cn/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-24 10:30"
+      "updatedAt": "2026-07-24 10:30",
+      "type": "calendar",
+      "title": "比亚迪2027款海豹06官方海报",
+      "category": "官方海报",
+      "sourceLevel": "B级",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607240105,
@@ -2322,7 +2361,14 @@ window.SPEED_INTELLIGENCE_DATA={
       "secondSourceUrl": "https://finance.sina.com.cn/tech/",
       "verification": "已完成",
       "status": "已官宣",
-      "updatedAt": "2026-07-24 10:30"
+      "updatedAt": "2026-07-24 10:30",
+      "type": "calendar",
+      "title": "极氪跨境车机安全机制官方回应",
+      "category": "官方回应",
+      "sourceLevel": "B级",
+      "priority": "高",
+      "risk": "低",
+      "workflowStatus": "持续监控"
     },
     {
       "id": 202607250100,
