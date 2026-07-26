@@ -1,5 +1,5 @@
 window.SPEED_INTELLIGENCE_DATA={
-  "version": 2026072603,
+  "version": 2026072604,
   "updatedAt": "2026-07-26 10:30",
   "cutoff": "日报及车型状态截至北京时间 2026-07-26 10:30",
   "daily": [
@@ -2232,7 +2232,7 @@ window.SPEED_INTELLIGENCE_DATA={
       "brand": "领克",
       "model": "07GT",
       "eventDate": "2026-07-23",
-      "launchTime": "19:00",
+      "launchTime": "2026-07-23T19:00",
       "launchStatus": "正式上市",
       "summary": "限时价14.58万—19.68万元",
       "sourceName": "证券之星",
@@ -2256,7 +2256,7 @@ window.SPEED_INTELLIGENCE_DATA={
       "brand": "东风奕派",
       "model": "eπ M8",
       "eventDate": "2026-07-23",
-      "launchTime": "19:00",
+      "launchTime": "2026-07-23T19:00",
       "launchStatus": "正式上市",
       "summary": "指导价17.98万—21.98万元，限时权益价16.58万元起",
       "sourceName": "IT之家",
