@@ -1,7 +1,7 @@
 window.SPEED_INTELLIGENCE_DATA={
-  "version": 2026080102,
-  "updatedAt": "2026-08-01 11:30",
-  "cutoff": "日报及车型状态截至北京时间 2026-08-01 11:30（已补录腾势Z9S预售定档）",
+  "version": 2026080103,
+  "updatedAt": "2026-08-01 11:45",
+  "cutoff": "日报及车型状态截至北京时间 2026-08-01 11:45（已补录腾势Z9S预售定档并校正重点监控时间）",
   "daily": [
     {
       "priority": "高",
@@ -3929,7 +3929,7 @@ window.SPEED_INTELLIGENCE_DATA={
       "priority": "高",
       "risk": "低",
       "workflowStatus": "持续监控",
-      "updatedAt": "2026-08-01 11:30",
+      "updatedAt": "2026-08-01 11:45",
       "currentStatus": "预售定档",
       "nextDate": "2026-08-03 19:30",
       "latest": "8月3日19:30预售发布。"
