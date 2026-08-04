@@ -1,7 +1,7 @@
 window.SPEED_INTELLIGENCE_DATA={
-  "version": 2026080401,
-  "updatedAt": "2026-08-04 10:30",
-  "cutoff": "日报及车型状态截至北京时间 2026-08-04 10:30（提交前已复查最近两小时动态）",
+  "version": 2026080402,
+  "updatedAt": "2026-08-04 10:45",
+  "cutoff": "日报及车型状态截至北京时间 2026-08-04 10:45（含方程豹钛9官方预告视频补录）",
   "daily": [
     {
       "priority": "高",
@@ -984,24 +984,24 @@ window.SPEED_INTELLIGENCE_DATA={
       "sourceLevel": "B级",
       "workflowStatus": "持续监控",
       "category": "新车资讯",
-      "title": "兰博基尼Revuelto Miura 60° Homage",
-      "summary": "纪念版全球限量99辆，将在蒙特雷汽车周亮相。",
-      "brand": "兰博基尼",
-      "model": "Revuelto Miura 60° Homage",
-      "eventDate": "2026-08-04",
-      "launchStatus": "特别版官宣",
+      "title": "方程豹钛9官方预告视频发布",
+      "summary": "官方视频首次展示侧面剪影，并称“钛9不会等太久”。",
+      "brand": "方程豹",
+      "model": "钛9",
+      "eventDate": "2026-08-02",
+      "launchStatus": "官方预告视频发布",
       "sourceName": "IT之家",
-      "sourceUrl": "https://www.ithome.com/0/985/282.htm",
-      "secondSourceName": "Lamborghini",
-      "secondSourceUrl": "https://www.lamborghini.com/",
-      "industryAngle": "海外限量发布不等于中国市场配额已确认。",
+      "sourceUrl": "https://www.ithome.com/0/984/808.htm",
+      "secondSourceName": "新浪财经",
+      "secondSourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-03/doc-inikyxuv6191835.shtml",
+      "industryAngle": "视频只确认侧面剪影与官方预告，尺寸、座位数、动力、价格及具体发布日仍待官宣。",
       "status": "已官宣",
-      "verification": "单一详细来源",
+      "verification": "已完成",
       "launchTime": "",
       "id": 202608040040,
       "seedId": "managed-202608040040",
       "type": "news",
-      "updatedAt": "2026-08-04 10:30"
+      "updatedAt": "2026-08-04 10:45"
     }
   ],
   "calendar": [
@@ -3660,6 +3660,30 @@ window.SPEED_INTELLIGENCE_DATA={
       "updatedAt": "2026-08-04 10:30",
       "id": 202608040103,
       "seedId": "managed-calendar-20260804004"
+    },
+    {
+      "type": "calendar",
+      "category": "发布会日历",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "A级",
+      "status": "已官宣",
+      "verification": "已完成",
+      "workflowStatus": "持续监控",
+      "brand": "方程豹",
+      "model": "钛9",
+      "eventDate": "2026-08-02",
+      "launchTime": "",
+      "launchStatus": "官方预告视频发布",
+      "title": "方程豹钛9官方预告视频发布",
+      "summary": "官方视频展示侧面剪影并称“钛9不会等太久”；具体发布时间、动力与价格待官宣。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/984/808.htm",
+      "secondSourceName": "新浪财经",
+      "secondSourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-03/doc-inikyxuv6191835.shtml",
+      "updatedAt": "2026-08-04 10:45",
+      "id": 202608040104,
+      "seedId": "managed-calendar-20260804-hotfix-t9-001"
     }
   ],
   "watches": [
@@ -5616,6 +5640,33 @@ window.SPEED_INTELLIGENCE_DATA={
       "updatedAt": "2026-08-04 10:30",
       "id": 202608040203,
       "seedId": "managed-watch-20260804004"
+    },
+    {
+      "type": "watch",
+      "category": "重点车型",
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "A级",
+      "status": "已官宣",
+      "verification": "已完成",
+      "workflowStatus": "持续监控",
+      "brand": "方程豹",
+      "model": "钛9",
+      "currentStatus": "官方预告视频发布",
+      "nextDate": "具体发布时间待官宣",
+      "latest": "官方视频展示侧面剪影，并称“钛9不会等太久”。",
+      "eventDate": "2026-08-02",
+      "launchTime": "",
+      "launchStatus": "官方预告视频发布",
+      "title": "钛9重点监控",
+      "summary": "官方预告视频已发布，尺寸、座位数、动力、价格及具体发布日待官宣。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/0/984/808.htm",
+      "secondSourceName": "新浪财经",
+      "secondSourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-03/doc-inikyxuv6191835.shtml",
+      "updatedAt": "2026-08-04 10:45",
+      "id": 202608040204,
+      "seedId": "managed-watch-20260804-hotfix-t9-001"
     }
   ]
 };
