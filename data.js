@@ -25,7 +25,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060001,
       "seedId": "managed-daily-20260806-001",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -50,7 +50,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060002,
       "seedId": "managed-daily-20260806-002",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -75,7 +75,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060003,
       "seedId": "managed-daily-20260806-003",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -100,7 +100,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060004,
       "seedId": "managed-daily-20260806-004",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -125,7 +125,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060005,
       "seedId": "managed-daily-20260806-005",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -150,7 +150,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060006,
       "seedId": "managed-daily-20260806-006",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -175,7 +175,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060007,
       "seedId": "managed-daily-20260806-007",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -200,7 +200,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060008,
       "seedId": "managed-daily-20260806-008",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -225,7 +225,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060009,
       "seedId": "managed-daily-20260806-009",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -250,7 +250,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060010,
       "seedId": "managed-daily-20260806-010",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -275,7 +275,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060011,
       "seedId": "managed-daily-20260806-011",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -300,7 +300,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060012,
       "seedId": "managed-daily-20260806-012",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -325,7 +325,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060013,
       "seedId": "managed-daily-20260806-013",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -350,7 +350,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060014,
       "seedId": "managed-daily-20260806-014",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -375,7 +375,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060015,
       "seedId": "managed-daily-20260806-015",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -400,7 +400,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060016,
       "seedId": "managed-daily-20260806-016",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -425,7 +425,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060017,
       "seedId": "managed-daily-20260806-017",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -450,7 +450,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060018,
       "seedId": "managed-daily-20260806-018",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -475,7 +475,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060019,
       "seedId": "managed-daily-20260806-019",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -500,7 +500,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060020,
       "seedId": "managed-daily-20260806-020",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -525,7 +525,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060021,
       "seedId": "managed-daily-20260806-021",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -550,7 +550,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060022,
       "seedId": "managed-daily-20260806-022",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -575,7 +575,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060023,
       "seedId": "managed-daily-20260806-023",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -600,7 +600,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060024,
       "seedId": "managed-daily-20260806-024",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -625,7 +625,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060025,
       "seedId": "managed-daily-20260806-025",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -650,7 +650,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060026,
       "seedId": "managed-daily-20260806-026",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -675,7 +675,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060027,
       "seedId": "managed-daily-20260806-027",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -700,7 +700,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060028,
       "seedId": "managed-daily-20260806-028",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -725,7 +725,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060029,
       "seedId": "managed-daily-20260806-029",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -750,7 +750,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060030,
       "seedId": "managed-daily-20260806-030",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -775,7 +775,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060031,
       "seedId": "managed-daily-20260806-031",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -800,7 +800,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060032,
       "seedId": "managed-daily-20260806-032",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -825,7 +825,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060033,
       "seedId": "managed-daily-20260806-033",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -850,7 +850,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060034,
       "seedId": "managed-daily-20260806-034",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -875,7 +875,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060035,
       "seedId": "managed-daily-20260806-035",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -900,7 +900,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060036,
       "seedId": "managed-daily-20260806-036",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -925,7 +925,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060037,
       "seedId": "managed-daily-20260806-037",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -950,7 +950,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060038,
       "seedId": "managed-daily-20260806-038",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -975,7 +975,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060039,
       "seedId": "managed-daily-20260806-039",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     },
     {
@@ -1000,7 +1000,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchTime": "",
       "id": 202608060040,
       "seedId": "managed-daily-20260806-040",
-      "type": "daily",
+      "type": "news",
       "updatedAt": "2026-08-06 10:30"
     }
   ],
