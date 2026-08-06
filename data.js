@@ -1,5 +1,5 @@
 window.SPEED_INTELLIGENCE_DATA = {
-  "version": 2026080601,
+  "version": 2026080602,
   "updatedAt": "2026-08-06 10:30",
   "cutoff": "日报及车型状态截至北京时间 2026-08-06 10:30（提交前已复查最近两小时官方社媒与权威汽车媒体）",
   "daily": [
