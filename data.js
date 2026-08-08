@@ -1,7 +1,7 @@
 window.SPEED_INTELLIGENCE_DATA = {
-  "version": 2026080802,
-  "updatedAt": "2026-08-08 13:00",
-  "cutoff": "日报及车型状态截至北京时间 2026-08-08 10:30（13:00已修正神行者8预售改期的车型归一化显示；提交前已复查最近两小时官方社媒、传统豪华品牌与国产新能源动态）",
+  "version": 2026080803,
+  "updatedAt": "2026-08-08 13:02",
+  "cutoff": "日报及车型状态截至北京时间 2026-08-08 10:30（13:02已修正神行者8预售改期的车型归一化与日期显示；提交前已复查最近两小时官方社媒、传统豪华品牌与国产新能源动态）",
   "daily": [
     {
       "category": "昨日热点",
@@ -7222,15 +7222,16 @@ window.SPEED_INTELLIGENCE_DATA = {
       "model": "神行者8",
       "currentStatus": "预售改期",
       "nextDate": "2026-08-14",
-      "latest": "官方确认8月14日预售。",
+      "latest": "官方确认预售发布节点由8月10日调整至8月14日。",
       "launchStatus": "预售改期",
       "title": "神行者8重点监控",
-      "summary": "官方确认8月14日预售。",
+      "summary": "官方确认预售发布节点由8月10日调整至8月14日。",
       "sourceName": "汽车之家",
       "sourceUrl": "https://ev.autohome.com.cn/",
-      "updatedAt": "2026-08-08 13:00",
+      "updatedAt": "2026-08-08 13:02",
       "id": 202608070204,
-      "seedId": "managed-watch-20260807-005"
+      "seedId": "managed-watch-20260807-005",
+      "eventDate": "2026-08-14"
     },
     {
       "type": "watch",
