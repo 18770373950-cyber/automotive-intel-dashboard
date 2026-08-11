@@ -1,7 +1,7 @@
 window.SPEED_INTELLIGENCE_DATA = {
-  "version": 2026081102,
-  "updatedAt": "2026-08-11 15:45",
-  "cutoff": "日报截至北京时间 2026-08-11 10:30；车型状态于15:45补充核验阿维塔07L正式上市及价格信息",
+  "version": 2026081103,
+  "updatedAt": "2026-08-11 15:50",
+  "cutoff": "日报截至北京时间 2026-08-11 10:30；车型状态于15:50补充核验阿维塔07L正式上市及价格信息",
   "daily": [
     {
       "category": "昨日热点",
@@ -4857,7 +4857,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已官宣",
       "verification": "双源核验",
       "workflowStatus": "持续跟进",
-      "updatedAt": "2026-08-09 10:30",
+      "updatedAt": "2026-08-11 15:50",
       "id": 202608090101,
       "seedId": "managed-calendar-20260809-001",
       "brand": "阿维塔",
@@ -4867,7 +4867,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchPrice": "22.99万—27.99万元",
       "rightsPrice": "21.99万—26.99万元",
       "eventDate": "2026-08-08",
-      "launchTime": "19:50",
+      "launchTime": "2026-08-08T19:50",
       "launchStatus": "正式上市",
       "sourceName": "阿维塔",
       "sourceUrl": "https://www.avatr.com/",
@@ -8273,7 +8273,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已官宣",
       "verification": "双源核验",
       "workflowStatus": "持续监控",
-      "updatedAt": "2026-08-09 10:30",
+      "updatedAt": "2026-08-11 15:50",
       "id": 202608090201,
       "seedId": "managed-watch-20260809-001",
       "brand": "阿维塔",
