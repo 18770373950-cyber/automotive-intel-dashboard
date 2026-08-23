@@ -165,7 +165,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "eventDate": "2026-08-22",
       "launchStatus": "正式上市",
       "brand": "smart",
-      "model": "精灵3号型动竞速版/精灵5号BRABUS超能版",
+      "model": "精灵3号型动竞速版",
       "title": "smart两款新增版本上市",
       "summary": "精灵3号型动竞速版、精灵5号BRABUS超能版限时权益价分别19.49万元起和32.99万元起。",
       "sourceName": "smart",
@@ -173,6 +173,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceName": "新浪汽车",
       "secondSourceUrl": "https://auto.sina.com.cn/newcar/2026-08-22/detail-inipeptr7455362.shtml",
       "industryAngle": "两项均为限时权益价，不写成全系官方指导价。",
+      "launchPrice": "19.49万元起",
+      "launchPriceLabel": "限时权益价",
       "category": "昨日热点",
       "id": 202608230007,
       "seedId": "managed-daily-20260823-007"
