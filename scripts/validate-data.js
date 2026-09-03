@@ -18,15 +18,19 @@ function brand(value) {
   const key = compact(value);
   return ({ 比亚迪王朝网: '比亚迪', 岚图汽车: '岚图', 奇瑞风云: '奇瑞', 奕境汽车: '奕境',
     小鹏汽车: '小鹏', 理想汽车: '理想', 零跑汽车: '零跑', 梅赛德斯奔驰: '奔驰',
-    上汽通用五菱: '五菱', 阿维塔汽车: '阿维塔' })[key] || key;
+    上汽通用五菱: '五菱', 阿维塔汽车: '阿维塔', 智己汽车: '智己', 长城汽车: '长城',
+    小米澎程: '小米汽车', 深蓝汽车: '深蓝', 蔚来firefly萤火虫: '萤火虫',
+    firefly萤火虫: '萤火虫' })[key] || key;
 }
 function model(value, normalizedBrand) {
   let key = compact(value).replace(/^(全新|新一代|2027款)/, '');
   const token = ({ 岚图: '岚图', 奇瑞: '奇瑞', 比亚迪: '比亚迪', 奕境: '奕境', 小鹏: '小鹏',
     理想: '理想', 零跑: '零跑', 奔驰: '奔驰', 五菱: '五菱', 极氪: '极氪', 领克: '领克',
-    腾势: '腾势', 星途: '星途', 阿维塔: '阿维塔' })[normalizedBrand];
+    腾势: '腾势', 星途: '星途', 阿维塔: '阿维塔', 智己: '智己', 长城: '长城',
+    深蓝: '深蓝' })[normalizedBrand];
   if (token && key.startsWith(token)) key = key.slice(token.length);
   if (normalizedBrand === '东风奕派' && key === 'eπm8') key = 'm8';
+  if (normalizedBrand === '起亚' && key === 'seltos') key = '赛图斯';
   return key;
 }
 function vehicleKey(record) {
@@ -75,6 +79,42 @@ duplicateCheck(data.daily || [], record => [record.brand, record.model, record.e
   record.launchStatus, record.summary].map(text).join('|'), '日报同事件');
 duplicateCheck(data.calendar || [], record => [record.brand, record.model, record.category,
   record.eventDate, record.launchTime, record.launchStatus].map(text).join('|'), '日历精确节点');
+
+// A dated announcement must not remain the current status after its scheduled day.
+// Aggregate rows are skipped because their component models are validated independently.
+const todayInBeijing = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'
+}).format(new Date());
+const calendarGroups = new Map();
+for (const record of data.calendar || []) {
+  if (/[\\/／]/.test(text(record.model))) continue;
+  const key = vehicleKey(record);
+  if (!calendarGroups.has(key)) calendarGroups.set(key, []);
+  calendarGroups.get(key).push(record);
+}
+function eventDay(record) {
+  const value = text(record.eventDate || record.nextDate);
+  const exact = value.match(/^\d{4}-\d{2}-\d{2}/);
+  if (exact) return exact[0];
+  return /^\d{4}-\d{2}$/.test(value) ? `${value}-00` : '';
+}
+function launchStateRank(record) {
+  const value = text(record.launchStatus);
+  if (/定档|倒计时|待举行|计划/.test(value)) return 1;
+  if (/正式上市|已上市|价格公布|开启交付|正式交付/.test(value)) return 5;
+  if (/预售开启|预订开启|开启预订/.test(value)) return 4;
+  if (/正式发布|已发布|首发|首秀|亮相/.test(value)) return 3;
+  return 2;
+}
+for (const [key, history] of calendarGroups) {
+  history.sort((a, b) => eventDay(b).localeCompare(eventDay(a), 'zh-CN') ||
+    launchStateRank(b) - launchStateRank(a) || text(b.updatedAt).localeCompare(text(a.updatedAt), 'zh-CN'));
+  const latest = history[0];
+  if (text(latest.eventDate) && latest.eventDate < todayInBeijing &&
+      /定档|倒计时|待举行|预售计划/.test(text(latest.launchStatus))) {
+    errors.push(`过期节点未闭环：${key} ${latest.eventDate} ${latest.launchStatus}`);
+  }
+}
 
 // Detect copy/paste contamination: an identical content/source/price block must
 // not be attached to different vehicles.
