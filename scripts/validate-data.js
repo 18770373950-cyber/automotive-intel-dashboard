@@ -116,6 +116,21 @@ for (const [key, history] of calendarGroups) {
   }
 }
 
+// A monitored vehicle must mirror the latest launch state in its calendar history.
+// This prevents the calendar from being refreshed while its dashboard card remains stale.
+for (const watch of data.watches || []) {
+  const key = vehicleKey(watch);
+  const history = calendarGroups.get(key);
+  if (!history?.length) continue;
+  history.sort((a, b) => eventDay(b).localeCompare(eventDay(a), 'zh-CN') ||
+    launchStateRank(b) - launchStateRank(a) || text(b.updatedAt).localeCompare(text(a.updatedAt), 'zh-CN'));
+  const latest = history[0];
+  const isPostLaunchFollowup = /里程碑|持续发酵|投入运营|交付进展/.test(text(watch.launchStatus));
+  if (launchStateRank(watch) < launchStateRank(latest) && !isPostLaunchFollowup) {
+    errors.push(`监控状态未同步：${key} 日历=${text(latest.launchStatus)}，监控=${text(watch.launchStatus)}`);
+  }
+}
+
 // Detect copy/paste contamination: an identical content/source/price block must
 // not be attached to different vehicles.
 const fingerprints = new Map();
