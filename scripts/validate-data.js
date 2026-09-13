@@ -115,10 +115,26 @@ for (const [key, history] of calendarGroups) {
   }
 }
 
-const industryNews = (data.daily || []).filter(record => text(record.category) !== '新车资讯');
-const vehicleNews = (data.daily || []).filter(record => text(record.category) === '新车资讯');
+const invalidDailyCategories = (data.daily || []).filter(record => !['行业热点', '热点新车'].includes(text(record.category)));
+if (invalidDailyCategories.length) {
+  errors.push(`日报存在非标准分类：${[...new Set(invalidDailyCategories.map(record => text(record.category) || '空值'))].join('、')}`);
+}
+const industryNews = (data.daily || []).filter(record => text(record.category) === '行业热点');
+const vehicleNews = (data.daily || []).filter(record => text(record.category) === '热点新车');
 if (industryNews.length !== 20) errors.push(`汽车行业资讯应为20条，实际为${industryNews.length}条`);
-if (vehicleNews.length !== 20) errors.push(`汽车资讯池应为20条，实际为${vehicleNews.length}条`);
+if (vehicleNews.length !== 20) errors.push(`热点新车应为20条，实际为${vehicleNews.length}条`);
+const buildDay = text(data.updatedAt).slice(0, 10);
+if (!industryNews.some(record => text(record.updatedAt).startsWith(buildDay))) {
+  errors.push(`行业热点缺少${buildDay}当天已出现的新内容`);
+}
+if (!vehicleNews.some(record => text(record.updatedAt).startsWith(buildDay))) {
+  errors.push(`热点新车缺少${buildDay}当天已出现的新内容`);
+}
+for (const record of industryNews) {
+  if (/上市定档|预售定档|预售开启|正式上市/.test(text(record.launchStatus))) {
+    errors.push(`普通新车节点误入行业热点：${record.brand}/${record.model} ${record.launchStatus}`);
+  }
+}
 if (Array.isArray(data.watches) && data.watches.length) {
   errors.push('已移除的重点车型监控仍存在活动数据');
 }
@@ -165,4 +181,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`数据校验通过：汽车行业资讯 ${industryNews.length}、汽车资讯池 ${vehicleNews.length}、calendar ${data.calendar.length}，全局ID与seedId均唯一。`);
+console.log(`数据校验通过：行业热点 ${industryNews.length}、热点新车 ${vehicleNews.length}、calendar ${data.calendar.length}，两类资讯均含${buildDay}当天内容，全局ID与seedId均唯一。`);
