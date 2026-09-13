@@ -47,7 +47,7 @@ function duplicateCheck(records, keyFn, label) {
 }
 
 if (!data || typeof data !== 'object') errors.push('未找到 SPEED_INTELLIGENCE_DATA');
-const expectedType = { daily: 'news', calendar: 'calendar', watches: 'watch' };
+const expectedType = { daily: 'news', calendar: 'calendar' };
 const all = [];
 for (const section of Object.keys(expectedType)) {
   if (!Array.isArray(data[section])) {
@@ -74,7 +74,6 @@ for (const section of Object.keys(expectedType)) {
 
 duplicateCheck(all, item => String(item.record.id), '全局ID');
 duplicateCheck(all, item => item.record.seedId, '全局seedId');
-duplicateCheck(data.watches || [], vehicleKey, '重点监控车型');
 duplicateCheck(data.daily || [], record => [record.brand, record.model, record.eventDate,
   record.launchStatus, record.summary].map(text).join('|'), '日报同事件');
 duplicateCheck(data.calendar || [], record => [record.brand, record.model, record.category,
@@ -116,19 +115,12 @@ for (const [key, history] of calendarGroups) {
   }
 }
 
-// A monitored vehicle must mirror the latest launch state in its calendar history.
-// This prevents the calendar from being refreshed while its dashboard card remains stale.
-for (const watch of data.watches || []) {
-  const key = vehicleKey(watch);
-  const history = calendarGroups.get(key);
-  if (!history?.length) continue;
-  history.sort((a, b) => eventDay(b).localeCompare(eventDay(a), 'zh-CN') ||
-    launchStateRank(b) - launchStateRank(a) || text(b.updatedAt).localeCompare(text(a.updatedAt), 'zh-CN'));
-  const latest = history[0];
-  const isPostLaunchFollowup = /里程碑|持续发酵|投入运营|交付进展/.test(text(watch.launchStatus));
-  if (launchStateRank(watch) < launchStateRank(latest) && !isPostLaunchFollowup) {
-    errors.push(`监控状态未同步：${key} 日历=${text(latest.launchStatus)}，监控=${text(watch.launchStatus)}`);
-  }
+const industryNews = (data.daily || []).filter(record => text(record.category) !== '新车资讯');
+const vehicleNews = (data.daily || []).filter(record => text(record.category) === '新车资讯');
+if (industryNews.length !== 20) errors.push(`汽车行业资讯应为20条，实际为${industryNews.length}条`);
+if (vehicleNews.length !== 20) errors.push(`汽车资讯池应为20条，实际为${vehicleNews.length}条`);
+if (Array.isArray(data.watches) && data.watches.length) {
+  errors.push('已移除的重点车型监控仍存在活动数据');
 }
 
 // Detect copy/paste contamination: an identical content/source/price block must
@@ -155,6 +147,14 @@ if (html.includes('open(r.id)') || html.includes("find(x=>x.id===id)")) {
 if (!html.includes('tr.onclick=()=>open(r)') || !html.includes('normalizeRecordKeys')) {
   errors.push('页面缺少对象级点击绑定或本地记录唯一性保护');
 }
+if (!html.includes("['industry','汽车行业资讯','热']")) errors.push('页面缺少汽车行业资讯入口');
+if (!html.includes("['news','汽车资讯池','资']")) errors.push('页面缺少汽车资讯池入口');
+if (html.includes("['watch','重点车型监控'") || html.includes("['sources','可靠来源库'")) {
+  errors.push('页面仍保留已移除的重点车型监控或可靠来源库入口');
+}
+if (!html.includes('newsSortTime(b).localeCompare(newsSortTime(a)')) {
+  errors.push('汽车行业资讯缺少按时间倒序排列逻辑');
+}
 for (const match of html.matchAll(/<script>([\s\S]*?)<\/script>/g)) {
   try { new Function(match[1]); } catch (error) { errors.push(`页面脚本语法错误：${error.message}`); }
 }
@@ -165,4 +165,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`数据校验通过：daily ${data.daily.length}、calendar ${data.calendar.length}、watches ${data.watches.length}，全局ID与seedId均唯一。`);
+console.log(`数据校验通过：汽车行业资讯 ${industryNews.length}、汽车资讯池 ${vehicleNews.length}、calendar ${data.calendar.length}，全局ID与seedId均唯一。`);
