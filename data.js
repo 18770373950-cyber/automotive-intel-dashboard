@@ -1,55 +1,31 @@
 window.SPEED_INTELLIGENCE_DATA = {
-  "version": 2026092201,
-  "updatedAt": "2026-09-22 12:18",
-  "cutoff": "全量复核截至北京时间2026-09-22 12:18；先检索当日00:00—12:00，再以前24小时已核验信息补足。日报为汽车行业资讯20条、汽车资讯池20条。",
+  "version": 2026092301,
+  "updatedAt": "2026-09-23 12:18",
+  "cutoff": "全量复核截至北京时间2026-09-23 12:18；先检索当日00:00—12:00，再以前24小时已核验信息补足。日报为汽车行业资讯20条、汽车资讯池20条。",
   "daily": [
     {
       "priority": "高",
       "risk": "低",
-      "sourceLevel": "A级",
+      "sourceLevel": "A+B",
       "workflowStatus": "已核验",
       "status": "已确认",
-      "verification": "单一官方来源",
+      "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:18",
-      "brand": "台北市/新北市",
-      "model": "2026世界无车日公共交通措施",
+      "updatedAt": "2026-09-23 12:18",
+      "brand": "中国商务部/欧洲汽车产业",
+      "model": "中国车企赴欧投资与中欧汽车合作",
       "eventDate": "2026-09-22",
-      "launchStatus": "渠道服务与绿色出行",
-      "title": "双北世界无车日实施719条市区公交免费搭乘",
-      "summary": "台北市交通局9月22日上午公告，当日台北、新北辖管719条市区公交、5842辆车辆自首班至末班免费搭乘，观光巴士红蓝线除外。",
-      "sourceName": "台北市政府交通局",
-      "sourceUrl": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=8BC5022B284F7D44&sms=72544237BBE4C5F6",
-      "secondSourceName": "",
-      "secondSourceUrl": "",
-      "industryAngle": "属于单日公共交通服务措施，不代表常态票价政策；线路和车辆数量采用主管部门公告口径。",
-      "category": "行业热点",
-      "id": 202609220001,
-      "seedId": "managed-daily-20260922-001"
-    },
-    {
-      "priority": "高",
-      "risk": "低",
-      "sourceLevel": "A+B",
-      "workflowStatus": "已核验",
-      "status": "已确认",
-      "verification": "双源核验",
-      "type": "news",
-      "updatedAt": "2026-09-22 12:17",
-      "brand": "英国汽车制造商和贸易商协会/欧盟",
-      "model": "Made in Europe汽车产业政策",
-      "eventDate": "2026-09-21",
       "launchStatus": "出海与国际市场",
-      "title": "英国汽车业警示被排除在欧盟Made in Europe计划之外",
-      "summary": "北京时间9月22日上午复核，SMMT称欧盟产业加速法案草案若将英国整车排除在绿色车队激励、二氧化碳超级积分和公共采购之外，可能影响每年约800亿欧元的英欧汽车贸易。",
-      "sourceName": "SMMT",
-      "sourceUrl": "https://www.smmt.co.uk/",
+      "title": "中国商务部表示支持中国汽车企业赴欧洲投资",
+      "summary": "北京时间9月23日上午核实，商务部长王文涛在与德国汽车工业协会及梅赛德斯-奔驰管理层交流时表示，支持中国汽车企业赴欧洲投资，并主张通过中欧磋商机制处理汽车产业分歧。",
+      "sourceName": "中国商务部",
+      "sourceUrl": "https://www.mofcom.gov.cn/",
       "secondSourceName": "Reuters",
-      "secondSourceUrl": "https://www.reuters.com/world/uk/uk-exclusion-eu-made-europe-plan-risks-british-auto-trade-lobby-says-2026-09-21/",
-      "industryAngle": "目前仍属法案草案及行业游说阶段，并非已经生效的整车原产地或补贴新规。",
+      "secondSourceUrl": "https://www.reuters.com/world/asia-pacific/china-supports-investment-by-its-automakers-europe-commerce-minister-says-2026-09-22/",
+      "industryAngle": "支持投资属于政策表态，不等于具体企业的欧洲工厂项目、投资金额或投产时间已经确定。",
       "category": "行业热点",
-      "id": 202609220002,
-      "seedId": "managed-daily-20260922-002"
+      "id": 202609230001,
+      "seedId": "managed-daily-20260923-001"
     },
     {
       "priority": "高",
@@ -59,21 +35,21 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:16",
-      "brand": "大众集团",
-      "model": "重组与盈利预警后续",
-      "eventDate": "2026-09-21",
-      "launchStatus": "企业经营",
-      "title": "大众在盈利预警后表示将加快重组",
-      "summary": "大众品牌负责人表示现有降本措施不足，集团将在盈利预警后加快绩效改善与结构调整；报道同时提及与员工代表协商的岗位削减计划。",
-      "sourceName": "大众集团",
-      "sourceUrl": "https://www.volkswagen-group.com/en",
+      "updatedAt": "2026-09-23 12:17",
+      "brand": "宝马集团/欧盟",
+      "model": "中欧汽车贸易与关税立场",
+      "eventDate": "2026-09-22",
+      "launchStatus": "出海与国际市场",
+      "title": "宝马CEO警示低价中国车竞争但反对进一步加征关税",
+      "summary": "北京时间9月23日上午复核，宝马CEO认为低价中国汽车对欧洲产业形成竞争压力，但主张以自愿价格承诺和政治对话处理分歧，反对继续扩大关税。",
+      "sourceName": "宝马集团",
+      "sourceUrl": "https://www.bmwgroup.com/",
       "secondSourceName": "Reuters",
-      "secondSourceUrl": "https://www.reuters.com/business/volkswagen-porsche-shares-extend-losses-following-profit-warning-2026-09-21/",
-      "industryAngle": "重组目标、谈判方案与最终实施岗位数量仍可能变化，不能把讨论中的计划写成已经完成的裁员。",
+      "secondSourceUrl": "https://www.reuters.com/world/china/bmw-ceo-sees-risk-cheap-chinese-cars-in-europe-but-opposes-tariffs-2026-09-22/",
+      "industryAngle": "企业高管立场不代表欧盟政策已经调整；纯电反补贴税与可能涉及插混的后续措施须分开表述。",
       "category": "行业热点",
-      "id": 202609220003,
-      "seedId": "managed-daily-20260922-003"
+      "id": 202609230002,
+      "seedId": "managed-daily-20260923-002"
     },
     {
       "priority": "高",
@@ -83,21 +59,21 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:15",
-      "brand": "全球柴油市场",
-      "model": "柴油供应与运输成本",
-      "eventDate": "2026-09-21",
-      "launchStatus": "能源与用车成本",
-      "title": "全球柴油供应紧张被预计可能延续至2027年",
-      "summary": "北京时间9月22日上午核实，路透援引库存、储罐和行业数据称欧美柴油库存偏低、运输燃料价格承压，供应紧张可能延续至2027年。",
-      "sourceName": "美国能源信息署",
-      "sourceUrl": "https://www.eia.gov/petroleum/",
+      "updatedAt": "2026-09-23 12:16",
+      "brand": "大众汽车集团（中国）",
+      "model": "2026年中国乘用车市场判断",
+      "eventDate": "2026-09-22",
+      "launchStatus": "销量与市场",
+      "title": "大众中国负责人预计2026年中国乘用车市场或下降约20%",
+      "summary": "北京时间9月23日上午核实，大众中国负责人称2026年中国乘用车市场可能同比下降约20%，并将当前需求收缩与出口保持强势的结构性分化并列观察。",
+      "sourceName": "大众汽车集团（中国）",
+      "sourceUrl": "https://www.volkswagengroupchina.com.cn/",
       "secondSourceName": "Reuters",
-      "secondSourceUrl": "https://www.reuters.com/business/energy/global-diesel-shortage-likely-last-into-2027-storage-tanks-drain-2026-09-21/",
-      "industryAngle": "这是基于库存与供需情景的市场判断，不是确定价格预测；对商用车和物流成本的影响存在地区差异。",
+      "secondSourceUrl": "https://www.reuters.com/world/asia-pacific/volkswagen-china-chief-expects-chinas-passenger-car-market-decline-by-20-2026-2026-09-22/",
+      "industryAngle": "这是企业管理层判断而非最终行业统计；乘联分会零售、中汽协销量与出口口径不可混用。",
       "category": "行业热点",
-      "id": 202609220004,
-      "seedId": "managed-daily-20260922-004"
+      "id": 202609230003,
+      "seedId": "managed-daily-20260923-003"
     },
     {
       "priority": "高",
@@ -107,7 +83,31 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:14",
+      "updatedAt": "2026-09-23 12:15",
+      "brand": "美国NHTSA/本田",
+      "model": "Ridgeline倒车影像召回调查",
+      "eventDate": "2026-09-22",
+      "launchStatus": "重大安全与召回",
+      "title": "美国监管机构结束对逾12.9万辆本田Ridgeline倒车影像问题调查",
+      "summary": "NHTSA结束针对129092辆本田Ridgeline召回维修后倒车影像线束可靠性的调查；监管测试未发现既有维修方案中的线束在正常寿命期内存在预期失效证据，未要求进一步行动。",
+      "sourceName": "美国国家公路交通安全管理局",
+      "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/recalls",
+      "secondSourceName": "Reuters",
+      "secondSourceUrl": "https://www.reuters.com/legal/litigation/us-closes-rear-view-camera-probe-into-more-than-129000-honda-vehicles-2026-09-22/",
+      "industryAngle": "调查结案不等于撤销原召回；本次结论仅针对指定车型、故障机制和既有维修措施。",
+      "category": "行业热点",
+      "id": 202609230004,
+      "seedId": "managed-daily-20260923-004"
+    },
+    {
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "A+B",
+      "workflowStatus": "已核验",
+      "status": "已确认",
+      "verification": "双源核验",
+      "type": "news",
+      "updatedAt": "2026-09-23 12:14",
       "brand": "大众集团/保时捷",
       "model": "2026年业绩预警",
       "eventDate": "2026-09-18",
@@ -120,8 +120,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/world/china/volkswagen-porsche-holding-cut-outlook-2026-09-18/",
       "industryAngle": "一次性费用不等于现金在当期全部流出；中国豪华车需求、美国关税及重组成本需分开解读。",
       "category": "行业热点",
-      "id": 202609220005,
-      "seedId": "managed-daily-20260922-005"
+      "id": 202609230005,
+      "seedId": "managed-daily-20260923-005"
     },
     {
       "priority": "高",
@@ -131,7 +131,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:13",
+      "updatedAt": "2026-09-23 12:13",
       "brand": "美国汽车行业组织",
       "model": "中国汽车准入政策",
       "eventDate": "2026-09-18",
@@ -144,8 +144,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/business/autos-transportation/auto-industry-urges-trump-keep-chinese-automakers-out-ahead-xi-meeting-2026-09-18/",
       "industryAngle": "行业游说不等于行政规则已变化，现行关税、联网汽车规则与潜在立法应分别跟踪。",
       "category": "行业热点",
-      "id": 202609220006,
-      "seedId": "managed-daily-20260922-006"
+      "id": 202609230006,
+      "seedId": "managed-daily-20260923-006"
     },
     {
       "priority": "高",
@@ -155,7 +155,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:12",
+      "updatedAt": "2026-09-23 12:12",
       "brand": "中国商务部/欧盟",
       "model": "混合动力汽车贸易争议",
       "eventDate": "2026-09-18",
@@ -168,8 +168,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/world/china/china-says-it-will-monitor-eu-moves-chinese-hybrid-cars-opposes-voluntary-limit-2026-09-18/",
       "industryAngle": "报道中的15%并非已生效配额，且混合动力与纯电反补贴措施的法律框架不同。",
       "category": "行业热点",
-      "id": 202609220007,
-      "seedId": "managed-daily-20260922-007"
+      "id": 202609230007,
+      "seedId": "managed-daily-20260923-007"
     },
     {
       "priority": "高",
@@ -179,7 +179,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:11",
+      "updatedAt": "2026-09-23 12:11",
       "brand": "现代汽车",
       "model": "美国市场与自动驾驶战略",
       "eventDate": "2026-09-18",
@@ -192,8 +192,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/business/autos-transportation/hyundai-motor-ceo-warns-chinese-vehicle-surge-us-without-guardrails-2026-09-18/",
       "industryAngle": "企业判断与政策事实分开；L2++仍属驾驶辅助，不应写成自动驾驶。",
       "category": "行业热点",
-      "id": 202609220008,
-      "seedId": "managed-daily-20260922-008"
+      "id": 202609230008,
+      "seedId": "managed-daily-20260923-008"
     },
     {
       "priority": "高",
@@ -203,7 +203,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:10",
+      "updatedAt": "2026-09-23 12:10",
       "brand": "中国乘用车市场",
       "model": "2026年9月零售预测",
       "eventDate": "2026-09-18",
@@ -216,8 +216,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.cls.cn/detail/2486744",
       "industryAngle": "月中预测不是最终销量；零售、批发、上险及出口口径不可混用。",
       "category": "行业热点",
-      "id": 202609220009,
-      "seedId": "managed-daily-20260922-009"
+      "id": 202609230009,
+      "seedId": "managed-daily-20260923-009"
     },
     {
       "priority": "高",
@@ -227,7 +227,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:09",
+      "updatedAt": "2026-09-23 12:09",
       "brand": "中国一汽/零跑汽车",
       "model": "战略合作签约",
       "eventDate": "2026-09-17",
@@ -240,8 +240,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.cls.cn/detail/2486744",
       "industryAngle": "签署协议不等于具体车型、投资比例或量产订单已经落地，后续以公告为准。",
       "category": "行业热点",
-      "id": 202609220010,
-      "seedId": "managed-daily-20260922-010"
+      "id": 202609230010,
+      "seedId": "managed-daily-20260923-010"
     },
     {
       "priority": "高",
@@ -251,7 +251,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:08",
+      "updatedAt": "2026-09-23 12:08",
       "brand": "FIA/WRC",
       "model": "2026赛季赛历调整",
       "eventDate": "2026-09-17",
@@ -264,8 +264,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.wrc.com/",
       "industryAngle": "沙特赛事仍按中东拉力锦标赛举行；WRC赛历调整仍需世界汽车运动理事会批准。",
       "category": "行业热点",
-      "id": 202609220011,
-      "seedId": "managed-daily-20260922-011"
+      "id": 202609230011,
+      "seedId": "managed-daily-20260923-011"
     },
     {
       "priority": "高",
@@ -275,7 +275,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:07",
+      "updatedAt": "2026-09-23 12:07",
       "brand": "FIA",
       "model": "EcoRally A Coruña",
       "eventDate": "2026-09-19",
@@ -288,8 +288,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.fia.com/events/fia-ecorally-cup/season-2026",
       "industryAngle": "生态拉力成绩不等同传统速度赛，需按能耗、正则赛及罚分规则解读。",
       "category": "行业热点",
-      "id": 202609220012,
-      "seedId": "managed-daily-20260922-012"
+      "id": 202609230012,
+      "seedId": "managed-daily-20260923-012"
     },
     {
       "priority": "高",
@@ -299,7 +299,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:06",
+      "updatedAt": "2026-09-23 12:06",
       "brand": "SRO Motorsports",
       "model": "GT世界挑战赛欧洲短程杯赞德沃特站",
       "eventDate": "2026-09-19",
@@ -312,8 +312,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.fia.com/",
       "industryAngle": "排位、分组和正赛成绩需按组委会最终官方分类表引用。",
       "category": "行业热点",
-      "id": 202609220013,
-      "seedId": "managed-daily-20260922-013"
+      "id": 202609230013,
+      "seedId": "managed-daily-20260923-013"
     },
     {
       "priority": "高",
@@ -323,7 +323,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:05",
+      "updatedAt": "2026-09-23 12:05",
       "brand": "欧盟",
       "model": "电工钢临时保障措施",
       "eventDate": "2026-09-18",
@@ -336,8 +336,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/business/energy/eu-impose-provisional-safeguards-protect-electrical-steel-imports-2026-09-18/",
       "industryAngle": "电工钢同时用于汽车电机与电力设备，措施对汽车供应链的具体成本影响仍取决于产品分类和配额。",
       "category": "行业热点",
-      "id": 202609220014,
-      "seedId": "managed-daily-20260922-014"
+      "id": 202609230014,
+      "seedId": "managed-daily-20260923-014"
     },
     {
       "priority": "高",
@@ -347,7 +347,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "未官方确认",
       "verification": "单一来源",
       "type": "news",
-      "updatedAt": "2026-09-22 12:04",
+      "updatedAt": "2026-09-23 12:04",
       "brand": "比亚迪/宁德时代/小米",
       "model": "中美经贸高层交流",
       "eventDate": "2026-09-18",
@@ -360,8 +360,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/business/autos-transportation/byd-catl-xiaomi-executives-may-join-xis-us-visit-sources-say-2026-09-18/",
       "industryAngle": "单一媒体消息、未官方确认；不得写成企业已获得美国市场准入或已签署交易。",
       "category": "行业热点",
-      "id": 202609220015,
-      "seedId": "managed-daily-20260922-015"
+      "id": 202609230015,
+      "seedId": "managed-daily-20260923-015"
     },
     {
       "priority": "高",
@@ -371,7 +371,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:03",
+      "updatedAt": "2026-09-23 12:03",
       "brand": "中美汽车供应链",
       "model": "稀土与贸易磋商",
       "eventDate": "2026-09-18",
@@ -384,8 +384,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
       "industryAngle": "磋商议题不等于已达成协议，对汽车供应链的影响属于基于公开议程的行业推演。",
       "category": "行业热点",
-      "id": 202609220016,
-      "seedId": "managed-daily-20260922-016"
+      "id": 202609230016,
+      "seedId": "managed-daily-20260923-016"
     },
     {
       "priority": "高",
@@ -395,7 +395,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:02",
+      "updatedAt": "2026-09-23 12:02",
       "brand": "斯泰兰蒂斯",
       "model": "进口混合动力汽车召回",
       "eventDate": "2026-09-18",
@@ -408,8 +408,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.qiche365.org.cn/",
       "industryAngle": "不使用未核验的网络数量，车主应以VIN查询结果为准。",
       "category": "行业热点",
-      "id": 202609220017,
-      "seedId": "managed-daily-20260922-017"
+      "id": 202609230017,
+      "seedId": "managed-daily-20260923-017"
     },
     {
       "priority": "高",
@@ -419,7 +419,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:01",
+      "updatedAt": "2026-09-23 12:01",
       "brand": "汽车供应链行业",
       "model": "2026国民汽车供应链展览会",
       "eventDate": "2026-09-18",
@@ -432,8 +432,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://auto.ifeng.com/c/8w9heME0NX6",
       "industryAngle": "参展和签约信息须分别核验，主办方展会规模不等同新增量产订单。",
       "category": "行业热点",
-      "id": 202609220018,
-      "seedId": "managed-daily-20260922-018"
+      "id": 202609230018,
+      "seedId": "managed-daily-20260923-018"
     },
     {
       "priority": "高",
@@ -443,7 +443,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:00",
+      "updatedAt": "2026-09-23 12:00",
       "brand": "Truist Financial",
       "model": "汽车贷款资产出售",
       "eventDate": "2026-09-15",
@@ -456,8 +456,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/legal/transactional/truist-financial-sell-55-billion-auto-loans-amid-overhaul-2026-09-15/",
       "industryAngle": "资产出售规模不等于坏账损失，对汽车金融供给影响需后续数据验证。",
       "category": "行业热点",
-      "id": 202609220019,
-      "seedId": "managed-daily-20260922-019"
+      "id": 202609230019,
+      "seedId": "managed-daily-20260923-019"
     },
     {
       "priority": "高",
@@ -467,7 +467,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 11:59",
+      "updatedAt": "2026-09-23 11:59",
       "brand": "丰田/广汽集团/中国一汽",
       "model": "中国合资体系调整",
       "eventDate": "2026-09-15",
@@ -480,8 +480,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.reuters.com/business/autos-transportation/toyota-revamp-hints-wider-industry-shake-up-china-2026-09-15/",
       "industryAngle": "交易意向和行业推断不能写成丰田已经完成合资重组。",
       "category": "行业热点",
-      "id": 202609220020,
-      "seedId": "managed-daily-20260922-020"
+      "id": 202609230020,
+      "seedId": "managed-daily-20260923-020"
     },
     {
       "priority": "高",
@@ -491,7 +491,35 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:18",
+      "updatedAt": "2026-09-23 12:18",
+      "brand": "广汽传祺",
+      "model": "传祺越7",
+      "eventDate": "2026-09-22",
+      "launchStatus": "正式上市价格与交付信息核验",
+      "title": "传祺越7公布16.18万—20.78万元上市权益价并启动交付",
+      "summary": "事件发生于9月22日、9月23日上午完成双源复核：传祺越7正式上市并启动交付，限时上市权益价16.18万—20.78万元；品牌披露上市30分钟订单16815台，该数字不等同最终锁单或交付量。",
+      "sourceName": "广汽传祺",
+      "sourceUrl": "https://www.gacmotor.com/yue7/",
+      "secondSourceName": "新浪汽车",
+      "secondSourceUrl": "https://k.sina.com.cn/article_5151738923_133114c2b02701v5g2.html?from=auto",
+      "industryAngle": "16.18万—20.78万元属于限时上市权益价，不直接写成永久指导价；订单数据采用品牌披露口径。",
+      "preSalePrice": "17.18万—21.78万元",
+      "preSalePriceLabel": "此前限时预售权益价",
+      "category": "热点新车",
+      "id": 202609230021,
+      "seedId": "managed-daily-20260923-021",
+      "launchPrice": "16.18万—20.78万元",
+      "launchPriceLabel": "限时上市权益价"
+    },
+    {
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "A+B",
+      "workflowStatus": "已核验",
+      "status": "已确认",
+      "verification": "双源核验",
+      "type": "news",
+      "updatedAt": "2026-09-23 12:17",
       "brand": "一汽-大众",
       "model": "ID.AURA T6",
       "eventDate": "2026-09-20",
@@ -506,8 +534,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "preSalePrice": "13.59万—16.99万元",
       "preSalePriceLabel": "此前官方预售价",
       "category": "热点新车",
-      "id": 202609220021,
-      "seedId": "managed-daily-20260922-021",
+      "id": 202609230022,
+      "seedId": "managed-daily-20260923-022",
       "launchPrice": "12.99万—16.69万元",
       "launchPriceLabel": "正式指导价"
     },
@@ -519,7 +547,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:17",
+      "updatedAt": "2026-09-23 12:16",
       "brand": "特斯拉",
       "model": "Model 3/Model Y（香港）",
       "eventDate": "2026-09-19",
@@ -532,8 +560,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.tesla.com/zh_hk/",
       "industryAngle": "这是香港市场限时权益，不是中国内地指导价调整，且不同车型、订购日和交付期限条件不同。",
       "category": "热点新车",
-      "id": 202609220022,
-      "seedId": "managed-daily-20260922-022"
+      "id": 202609230023,
+      "seedId": "managed-daily-20260923-023"
     },
     {
       "priority": "高",
@@ -543,7 +571,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:16",
+      "updatedAt": "2026-09-23 12:15",
       "brand": "小鹏汽车",
       "model": "小鹏G9L",
       "eventDate": "2026-09-17",
@@ -556,8 +584,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.autohome.com.cn/news/",
       "industryAngle": "不采用未完成双源核验的网络价目表；不同配置的价格与权益需逐一对应。",
       "category": "热点新车",
-      "id": 202609220023,
-      "seedId": "managed-daily-20260922-023"
+      "id": 202609230024,
+      "seedId": "managed-daily-20260923-024"
     },
     {
       "priority": "高",
@@ -567,7 +595,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:15",
+      "updatedAt": "2026-09-23 12:14",
       "brand": "理想汽车",
       "model": "理想i9",
       "eventDate": "2026-09-16",
@@ -580,8 +608,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://auto.news18a.com/news/storys_296668.html",
       "industryAngle": "定金不是车价；两类电芯的设计、代工和交付批次应按官方定购页区分。",
       "category": "热点新车",
-      "id": 202609220024,
-      "seedId": "managed-daily-20260922-024"
+      "id": 202609230025,
+      "seedId": "managed-daily-20260923-025"
     },
     {
       "priority": "高",
@@ -591,7 +619,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:14",
+      "updatedAt": "2026-09-23 12:13",
       "brand": "极狐",
       "model": "阿尔法T7",
       "eventDate": "2026-09-16",
@@ -604,8 +632,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://auto.news18a.com/news/storys_290679.html",
       "industryAngle": "辅助驾驶配置需对应具体版型，预售补贴价与正式指导价、上市权益须分列。",
       "category": "热点新车",
-      "id": 202609220025,
-      "seedId": "managed-daily-20260922-025"
+      "id": 202609230026,
+      "seedId": "managed-daily-20260923-026"
     },
     {
       "priority": "高",
@@ -615,7 +643,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:13",
+      "updatedAt": "2026-09-23 12:12",
       "brand": "方程豹",
       "model": "方程S",
       "eventDate": "2026-09-16",
@@ -628,8 +656,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.ithome.com/0/991/999.htm",
       "industryAngle": "方程S与S GT的价格、配置和动力不可共用；申报参数不等于所有量产版型标配。",
       "category": "热点新车",
-      "id": 202609220026,
-      "seedId": "managed-daily-20260922-026"
+      "id": 202609230027,
+      "seedId": "managed-daily-20260923-027"
     },
     {
       "priority": "高",
@@ -639,7 +667,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:12",
+      "updatedAt": "2026-09-23 12:11",
       "brand": "方程豹",
       "model": "方程S GT",
       "eventDate": "2026-09-16",
@@ -652,8 +680,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.ithome.com/0/991/999.htm",
       "industryAngle": "同场上市不代表两车共享配置，正式价格字段仅在逐版本核验后填写。",
       "category": "热点新车",
-      "id": 202609220027,
-      "seedId": "managed-daily-20260922-027"
+      "id": 202609230028,
+      "seedId": "managed-daily-20260923-028"
     },
     {
       "priority": "高",
@@ -663,7 +691,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:11",
+      "updatedAt": "2026-09-23 12:10",
       "brand": "奔驰",
       "model": "全新长轴距GLE SUV",
       "eventDate": "2026-09-16",
@@ -676,8 +704,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://news.yiche.com/xinchexiaoxi/20260904/15112827101.html",
       "industryAngle": "中国长轴距版本与海外GLE的价格、尺寸和功能开放范围不可混用。",
       "category": "热点新车",
-      "id": 202609220028,
-      "seedId": "managed-daily-20260922-028"
+      "id": 202609230029,
+      "seedId": "managed-daily-20260923-029"
     },
     {
       "priority": "高",
@@ -687,7 +715,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:10",
+      "updatedAt": "2026-09-23 12:09",
       "brand": "吉利银河",
       "model": "战舰700",
       "eventDate": "2026-09-15",
@@ -702,8 +730,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "preSalePrice": "19.98万—38.98万元",
       "preSalePriceLabel": "官方预售价",
       "category": "热点新车",
-      "id": 202609220029,
-      "seedId": "managed-daily-20260922-029"
+      "id": 202609230030,
+      "seedId": "managed-daily-20260923-030"
     },
     {
       "priority": "高",
@@ -713,7 +741,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:09",
+      "updatedAt": "2026-09-23 12:08",
       "brand": "腾势汽车",
       "model": "腾势N8L纯电版",
       "eventDate": "2026-09-14",
@@ -726,8 +754,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.ithome.com/0/998/601.htm",
       "industryAngle": "纯电版与插混版价格不可混用，限时权益和正式指导价分别记录。",
       "category": "热点新车",
-      "id": 202609220030,
-      "seedId": "managed-daily-20260922-030"
+      "id": 202609230031,
+      "seedId": "managed-daily-20260923-031"
     },
     {
       "priority": "高",
@@ -737,7 +765,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:08",
+      "updatedAt": "2026-09-23 12:07",
       "brand": "大众安徽",
       "model": "与众08猎影版",
       "eventDate": "2026-09-12",
@@ -754,8 +782,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "limitedPrice": "18.99万—24.99万元",
       "limitedPriceLabel": "全系限时权益价",
       "category": "热点新车",
-      "id": 202609220031,
-      "seedId": "managed-daily-20260922-031"
+      "id": 202609230032,
+      "seedId": "managed-daily-20260923-032"
     },
     {
       "priority": "高",
@@ -765,7 +793,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:07",
+      "updatedAt": "2026-09-23 12:06",
       "brand": "长安汽车",
       "model": "UNI-V蓝鲸超擎混动",
       "eventDate": "2026-09-12",
@@ -782,8 +810,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "limitedPrice": "10.99万—11.39万元",
       "limitedPriceLabel": "限时售价",
       "category": "热点新车",
-      "id": 202609220032,
-      "seedId": "managed-daily-20260922-032"
+      "id": 202609230033,
+      "seedId": "managed-daily-20260923-033"
     },
     {
       "priority": "高",
@@ -793,7 +821,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:06",
+      "updatedAt": "2026-09-23 12:05",
       "brand": "特斯拉",
       "model": "Model Y Performance",
       "eventDate": "2026-09-11",
@@ -808,8 +836,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "officialPrice": "36.9万元起",
       "officialPriceLabel": "官方售价",
       "category": "热点新车",
-      "id": 202609220033,
-      "seedId": "managed-daily-20260922-033"
+      "id": 202609230034,
+      "seedId": "managed-daily-20260923-034"
     },
     {
       "priority": "高",
@@ -819,7 +847,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:05",
+      "updatedAt": "2026-09-23 12:04",
       "brand": "岚图汽车",
       "model": "岚图梦想家9",
       "eventDate": "2026-09-12",
@@ -834,8 +862,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "preSalePrice": "42.99万—52.99万元",
       "preSalePriceLabel": "官方预售价",
       "category": "热点新车",
-      "id": 202609220034,
-      "seedId": "managed-daily-20260922-034"
+      "id": 202609230035,
+      "seedId": "managed-daily-20260923-035"
     },
     {
       "priority": "高",
@@ -845,7 +873,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:04",
+      "updatedAt": "2026-09-23 12:03",
       "brand": "理想汽车",
       "model": "理想i9",
       "eventDate": "2026-09-19",
@@ -860,8 +888,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchPrice": "36.98万元",
       "launchPriceLabel": "全国统一零售价",
       "category": "热点新车",
-      "id": 202609220035,
-      "seedId": "managed-daily-20260922-035"
+      "id": 202609230036,
+      "seedId": "managed-daily-20260923-036"
     },
     {
       "priority": "高",
@@ -871,7 +899,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:03",
+      "updatedAt": "2026-09-23 12:02",
       "brand": "奇瑞捷豹路虎",
       "model": "神行者8",
       "eventDate": "2026-09-19",
@@ -888,8 +916,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "rightsPrice": "28.99万—37.99万元",
       "rightsPriceLabel": "上市权益价",
       "category": "热点新车",
-      "id": 202609220036,
-      "seedId": "managed-daily-20260922-036"
+      "id": 202609230037,
+      "seedId": "managed-daily-20260923-037"
     },
     {
       "priority": "高",
@@ -899,7 +927,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:02",
+      "updatedAt": "2026-09-23 12:01",
       "brand": "方程豹",
       "model": "方程S",
       "eventDate": "2026-09-19",
@@ -914,8 +942,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "launchPrice": "18.99万—22.99万元",
       "launchPriceLabel": "官方指导价",
       "category": "热点新车",
-      "id": 202609220037,
-      "seedId": "managed-daily-20260922-037"
+      "id": 202609230038,
+      "seedId": "managed-daily-20260923-038"
     },
     {
       "priority": "高",
@@ -925,7 +953,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:01",
+      "updatedAt": "2026-09-23 12:00",
       "brand": "东风奕派",
       "model": "星海V6乾崑智驾ADS SE版",
       "eventDate": "2026-09-19",
@@ -942,8 +970,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "rightsPrice": "9.99万—11.99万元",
       "rightsPriceLabel": "上市权益价",
       "category": "热点新车",
-      "id": 202609220038,
-      "seedId": "managed-daily-20260922-038"
+      "id": 202609230039,
+      "seedId": "managed-daily-20260923-039"
     },
     {
       "priority": "高",
@@ -953,7 +981,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "status": "已确认",
       "verification": "双源核验",
       "type": "news",
-      "updatedAt": "2026-09-22 12:00",
+      "updatedAt": "2026-09-23 11:59",
       "brand": "猛士科技",
       "model": "猛士M817",
       "eventDate": "2026-09-19",
@@ -966,32 +994,8 @@ window.SPEED_INTELLIGENCE_DATA = {
       "secondSourceUrl": "https://www.ithome.com/1/004/455.htm",
       "industryAngle": "辅助驾驶功能仍需驾驶员全程监督，不应表述为自动驾驶。",
       "category": "热点新车",
-      "id": 202609220039,
-      "seedId": "managed-daily-20260922-039"
-    },
-    {
-      "priority": "高",
-      "risk": "低",
-      "sourceLevel": "A+B",
-      "workflowStatus": "已核验",
-      "status": "已确认",
-      "verification": "双源核验",
-      "type": "news",
-      "updatedAt": "2026-09-22 11:59",
-      "brand": "零跑汽车",
-      "model": "零跑A10",
-      "eventDate": "2026-09-19",
-      "launchStatus": "OTA升级",
-      "title": "零跑A10开启新一轮OTA",
-      "summary": "零跑A10于9月19日开启OTA，新增360后视镜入口、记忆泊车等6项功能，并优化城市领航等8项体验。",
-      "sourceName": "零跑汽车",
-      "sourceUrl": "https://www.leapmotor.com/",
-      "secondSourceName": "IT之家",
-      "secondSourceUrl": "https://www.ithome.com/1/004/446.htm",
-      "industryAngle": "不同配置和批次的推送时间、功能范围可能不同。",
-      "category": "热点新车",
-      "id": 202609220040,
-      "seedId": "managed-daily-20260922-040"
+      "id": 202609230040,
+      "seedId": "managed-daily-20260923-040"
     }
   ],
   "calendar": [
@@ -1174,6 +1178,35 @@ window.SPEED_INTELLIGENCE_DATA = {
       "id": 202609110101,
       "seedId": "managed-calendar-20260911-001",
       "launchTime": "2026-09-10（具体时间未披露）"
+    },
+    {
+      "priority": "高",
+      "risk": "低",
+      "sourceLevel": "A+B",
+      "workflowStatus": "已核验",
+      "status": "已官宣",
+      "verification": "双源核验",
+      "type": "calendar",
+      "updatedAt": "2026-09-23 12:18",
+      "brand": "广汽传祺",
+      "model": "传祺越7",
+      "eventDate": "2026-09-22",
+      "launchTime": "2026-09-22 晚间",
+      "launchStatus": "正式上市",
+      "title": "传祺越7正式上市并启动交付",
+      "summary": "传祺越7于9月22日正式上市并启动交付，限时上市权益价16.18万—20.78万元；品牌披露上市30分钟订单16815台。",
+      "sourceName": "广汽传祺",
+      "sourceUrl": "https://www.gacmotor.com/yue7/",
+      "secondSourceName": "新浪汽车",
+      "secondSourceUrl": "https://k.sina.com.cn/article_5151738923_133114c2b02701v5g2.html?from=auto",
+      "industryAngle": "正式上市节点独立追加，保留此前全球首秀、预售及上市定档历史；权益价不等同永久指导价，品牌订单口径不等同交付量。",
+      "preSalePrice": "17.18万—21.78万元",
+      "preSalePriceLabel": "此前限时预售权益价",
+      "launchPrice": "16.18万—20.78万元",
+      "launchPriceLabel": "限时上市权益价",
+      "category": "车企发布会日历",
+      "id": 2026092301001,
+      "seedId": "managed-calendar-20260923-001"
     },
     {
       "priority": "高",
