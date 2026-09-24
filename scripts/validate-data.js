@@ -124,6 +124,40 @@ const vehicleNews = (data.daily || []).filter(record => text(record.category) ==
 if (industryNews.length !== 20) errors.push(`汽车行业资讯应为20条，实际为${industryNews.length}条`);
 if (vehicleNews.length !== 20) errors.push(`热点新车应为20条，实际为${vehicleNews.length}条`);
 const buildDay = text(data.updatedAt).slice(0, 10);
+const cutoffCounts = text(data.cutoff).match(/行业热点当天新增(\d+)条、昨夜新增(\d+)条；热点新车当天新增(\d+)条、昨夜新增(\d+)条/);
+if (!cutoffCounts) {
+  errors.push('cutoff缺少两类资讯的当天新增/昨夜新增统计');
+} else {
+  const actual = category => ({
+    today: category.filter(record => text(record.freshness) === '当天新增').length,
+    overnight: category.filter(record => text(record.freshness) === '昨夜新增').length
+  });
+  const industryFresh = actual(industryNews);
+  const vehicleFresh = actual(vehicleNews);
+  const stated = cutoffCounts.slice(1).map(Number);
+  const observed = [industryFresh.today, industryFresh.overnight, vehicleFresh.today, vehicleFresh.overnight];
+  if (stated.some((value, index) => value !== observed[index])) {
+    errors.push(`cutoff新鲜度统计与日报不符：声明${stated.join('/')}，实际${observed.join('/')}`);
+  }
+}
+for (const [label, records] of [['行业热点', industryNews], ['热点新车', vehicleNews]]) {
+  for (const record of records) {
+    if (!['当天新增', '昨夜新增'].includes(text(record.freshness))) {
+      errors.push(`${label}缺少有效freshness：${record.title}`);
+    }
+    if (text(record.freshness) === '当天新增' && !text(record.updatedAt).startsWith(buildDay)) {
+      errors.push(`${label}当天新增时间不在${buildDay}：${record.title}`);
+    }
+    if (record.eventDate < buildDay && !new RegExp(`${Number(buildDay.slice(5, 7))}月${Number(buildDay.slice(8, 10))}日`).test(text(record.summary))) {
+      errors.push(`${label}历史事件摘要未写明当天新增进展：${record.title}`);
+    }
+  }
+}
+for (let index = 1; index < (data.daily || []).length; index += 1) {
+  if (text(data.daily[index - 1].updatedAt) < text(data.daily[index].updatedAt)) {
+    errors.push(`日报未按updatedAt倒序：第${index}、${index + 1}条`);
+  }
+}
 if (!industryNews.some(record => text(record.updatedAt).startsWith(buildDay))) {
   errors.push(`行业热点缺少${buildDay}当天已出现的新内容`);
 }
