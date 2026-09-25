@@ -12721,7 +12721,7 @@ window.SPEED_INTELLIGENCE_DATA = {
       "industryAngle": "正式指导价、限时权益价和预售价分别记录。",
       "launchPrice": "28.98万—36.98万元",
       "launchPriceLabel": "官方指导价",
-      "rightsPrice": "27.98万—35.98万元"
+      "rightsPrice": "27.98万—35.98万元",
       "rightsPriceLabel": "限时权益价",
       "id": 202609250101,
       "seedId": "managed-calendar-20260925-101"
