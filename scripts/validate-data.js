@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const crypto = require('crypto');
 
 const root = path.resolve(__dirname, '..');
 const dataPath = path.join(root, 'data.js');
@@ -11,6 +12,14 @@ const sandbox = { window: {} };
 vm.runInNewContext(fs.readFileSync(dataPath, 'utf8'), sandbox, { filename: dataPath });
 const data = sandbox.window.SPEED_INTELLIGENCE_DATA;
 const errors = [];
+const policy = JSON.parse(fs.readFileSync(path.join(root, 'update-policy.json'), 'utf8'));
+const newsFrozen = policy.mode === 'calendar-only';
+if (newsFrozen) {
+  const hash = crypto.createHash('sha256').update(JSON.stringify({
+    daily: data.daily, dailyArchive: data.dailyArchive
+  })).digest('hex');
+  if (hash !== policy.newsSha256) errors.push('资讯已停止更新：daily或dailyArchive与冻结基线不一致');
+}
 
 function text(value) { return String(value || '').trim(); }
 function compact(value) { return text(value).toLowerCase().replace(/[\s·._#\-—–]/g, ''); }
@@ -123,11 +132,11 @@ const industryNews = (data.daily || []).filter(record => text(record.category) =
 const vehicleNews = (data.daily || []).filter(record => text(record.category) === '热点新车');
 if (industryNews.length !== 20) errors.push(`汽车行业资讯应为20条，实际为${industryNews.length}条`);
 if (vehicleNews.length !== 20) errors.push(`热点新车应为20条，实际为${vehicleNews.length}条`);
-const buildDay = text(data.updatedAt).slice(0, 10);
+const buildDay = text(newsFrozen ? policy.newsFrozenAt : data.updatedAt).slice(0, 10);
 const cutoffCounts = text(data.cutoff).match(/行业热点当天新增(\d+)条、昨夜新增(\d+)条；热点新车当天新增(\d+)条、昨夜新增(\d+)条/);
-if (!cutoffCounts) {
+if (!cutoffCounts && !newsFrozen) {
   errors.push('cutoff缺少两类资讯的当天新增/昨夜新增统计');
-} else {
+} else if (cutoffCounts && !newsFrozen) {
   const actual = category => ({
     today: category.filter(record => text(record.freshness) === '当天新增').length,
     overnight: category.filter(record => text(record.freshness) === '昨夜新增').length
@@ -215,4 +224,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`数据校验通过：行业热点 ${industryNews.length}、热点新车 ${vehicleNews.length}、calendar ${data.calendar.length}，两类资讯均含${buildDay}当天内容，全局ID与seedId均唯一。`);
+console.log(`数据校验通过：行业热点 ${industryNews.length}、热点新车 ${vehicleNews.length}、calendar ${data.calendar.length}，${newsFrozen ? '资讯与历史日报保持冻结基线，仅维护发布会日历' : `两类资讯均含${buildDay}当天内容`}，全局ID与seedId均唯一。`);
